@@ -1,0 +1,77 @@
+2014-11-24 12:54:13,647 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.0 $Rev: 4450 $ (http://code.google.com/p/red5/)
+2014-11-24 12:54:13,718 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@879860: startup date [Mon Nov 24 12:54:13 CST 2014]; root of context hierarchy
+2014-11-24 12:54:13,766 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2014-11-24 12:54:13,985 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2014-11-24 12:54:14,085 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2014-11-24 12:54:14,095 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f947b: defining beans [placeholderConfig,red5.common,red5.core,context.loader,pluginLauncher,tomcat.server]; root of factory hierarchy
+2014-11-24 12:54:14,122 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1a40247: startup date [Mon Nov 24 12:54:14 CST 2014]; root of context hierarchy
+2014-11-24 12:54:14,123 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2014-11-24 12:54:14,215 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2014-11-24 12:54:14,221 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10dd4c8: defining beans [placeholderConfig,red5.server,rmiRegistry,mbeanServer,org.springframework.jmx.support.ConnectorServerFactoryBean#0,mbeanExporter,serializer,deserializer,minaEncoder,minaDecoder,statusObjectService,rtmpCodecFactory,rtmptCodecFactory,remotingCodecFactory,streamableFileFactory,filePersistenceThread,sharedObjectService,streamService,providerService,consumerService,schedulingService,warDeployService,remotingClient,object.cache,keyframe.cache,flv.impl,flvreader.impl,mp4reader.impl,mp3reader.impl,org.springframework.beans.factory.config.MethodInvokingFactoryBean#0,org.springframework.beans.factory.config.MethodInvokingFactoryBean#1,streamExecutor,fileConsumer,playlistSubscriberStream,clientBroadcastStream]; root of factory hierarchy
+2014-11-24 12:54:14,242 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
+2014-11-24 12:54:14,388 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@5dc268
+2014-11-24 12:54:14,410 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2014-11-24 12:54:14,411 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
+2014-11-24 12:54:14,451 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2014-11-24 12:54:14,481 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2014-11-24 12:54:14,482 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+2014-11-24 12:54:14,485 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2014-11-24 12:54:14,486 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2014-11-24 12:54:14,486 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2014-11-24 12:54:14,486 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+2014-11-24 12:54:14,487 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2014-11-24 12:54:14,487 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2014-11-24 12:54:14,505 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2014-11-24 12:54:14,521 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
+2014-11-24 12:54:14,523 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2014-11-24 12:54:14,838 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2014-11-24 12:54:14,891 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6d06b0: startup date [Mon Nov 24 12:54:14 CST 2014]; parent: ApplicationContext 'red5.common'
+2014-11-24 12:54:14,894 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2014-11-24 12:54:14,971 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2014-11-24 12:54:14,979 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1dbb12b: defining beans [customEditorConfigurer,placeholderConfig,rtmpMinaConnManager,rtmpHandler,rtmpMinaIoHandler,rtmpTransport,rtmpMinaConnection,rtmptConnManager,rtmptHandler,rtmptServlet,rtmptConnection]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@10dd4c8
+2014-11-24 12:54:15,002 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport bound to /0.0.0.0:1935
+2014-11-24 12:54:15,002 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2014-11-24 12:54:15,002 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - I/O Threads: 16
+2014-11-24 12:54:15,063 [main] INFO  o.r.s.n.f.IoEventQueueThrottler - IoEventQueueThrottle created
+2014-11-24 12:54:15,065 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - TCP No Delay: true
+2014-11-24 12:54:15,065 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Settings - send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 24
+2014-11-24 12:54:15,107 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2014-11-24 12:54:15,109 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => E:/dahuang-workspace/red5-server-1.0.0/webapps/red5-default.xml
+2014-11-24 12:54:15,110 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b6994f: startup date [Mon Nov 24 12:54:15 CST 2014]; parent: ApplicationContext 'red5.common'
+2014-11-24 12:54:15,113 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\dahuang-workspace\red5-server-1.0.0\webapps\red5-default.xml]
+2014-11-24 12:54:15,142 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3ba002: defining beans [global.clientRegistry,global.serviceInvoker,global.mappingStrategy,global.context,global.handler,global.scope,red5.scopeResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@10dd4c8
+2014-11-24 12:54:15,199 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2014-11-24 12:54:15,415 [main] INFO  org.red5.server.tomcat.TomcatLoader - Setting connector: org.apache.catalina.connector.Connector
+2014-11-24 12:54:15,415 [main] INFO  org.red5.server.tomcat.TomcatLoader - Address to bind: /0.0.0.0:5443
+2014-11-24 12:54:15,415 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat context
+2014-11-24 12:54:15,415 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: E:/dahuang-workspace/red5-server-1.0.0
+2014-11-24 12:54:15,416 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: E:/dahuang-workspace/red5-server-1.0.0/conf
+2014-11-24 12:54:15,435 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: E:/dahuang-workspace/red5-server-1.0.0/webapps
+2014-11-24 12:54:15,481 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2014-11-24 12:54:15,482 [main] INFO  o.apache.catalina.startup.Embedded - Starting tomcat server
+2014-11-24 12:54:15,543 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/6.0.36
+2014-11-24 12:54:15,706 [main] INFO  org.apache.catalina.realm.JAASRealm - Set JAAS app name red5Engine
+2014-11-24 12:54:16,177 [main] INFO  o.a.coyote.http11.Http11Protocol - Initializing Coyote HTTP/1.1 on http-0.0.0.0-5443
+2014-11-24 12:54:16,185 [main] INFO  o.a.coyote.http11.Http11Protocol - Starting Coyote HTTP/1.1 on http-0.0.0.0-5443
+2014-11-24 12:54:16,198 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2014-11-24 12:54:16,218 [Launcher:/live] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Nov 24 12:54:16 CST 2014]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@b6994f
+2014-11-24 12:54:16,218 [Launcher:/vod] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Nov 24 12:54:16 CST 2014]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@b6994f
+2014-11-24 12:54:16,225 [Launcher:/vod] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2014-11-24 12:54:16,225 [Launcher:/live] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2014-11-24 12:54:16,266 [Launcher:/vod] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2014-11-24 12:54:16,271 [Launcher:/live] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2014-11-24 12:54:16,273 [Launcher:/live] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@114a707: defining beans [placeholderConfig,web.context,web.scope,web.handler]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@3ba002
+2014-11-24 12:54:16,273 [Launcher:/vod] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@196649c: defining beans [placeholderConfig,web.context,web.scope,web.handler]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@3ba002
+2014-11-24 12:54:16,280 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2014-11-24 12:54:16,281 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2014-11-24 12:54:16,383 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@13ba312map[[empty]]]
+2014-11-24 12:54:16,383 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@13ba312map[[empty]]]
+2014-11-24 12:54:16,447 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2014-11-24 12:54:16,447 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
